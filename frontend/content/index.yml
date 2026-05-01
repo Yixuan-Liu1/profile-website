@@ -1,0 +1,86 @@
+seo:
+  title: "Haoming Luo - Cloud & Data Platform Engineer"
+  description: "AWS-certified software developer specializing in cloud-native data platforms, distributed systems, and scalable AI infrastructure. Proven experience in building high-performance pipelines and optimizing cloud architectures."
+
+title: "Hey, I'm Haoming Luo — Cloud & Data Platform Engineer"
+
+description: "Cloud and data platform engineer specializing in scalable, cloud-native systems, event-driven architectures, and AI-powered applications. AWS Certified (SAP, SAA, DVA, DEA) and HashiCorp Terraform Associate, focused on performance, cost optimization, and production-grade systems."
+hero:
+  links:
+    - label: "View GitHub"
+      to: https://github.com/JasonLuo2024
+      color: "neutral"
+    - label: "LinkedIn"
+      to: https://linkedin.com/in/HaomingLuo
+      color: "neutral"
+
+experience:
+  title: Work Experience
+  items:
+    - position: "Software Developer"
+      date: "May 2024 – Present"
+      company:
+        name: "Angler Solutions Inc."
+        logo: "/logos/angler.jpg"
+        color: "#112256"
+      highlights:
+        - "Designed event-driven data pipelines using S3, SQS, Lambda, ECS, and DynamoDB"
+        - "Reduced storage size by 40× by migrating JSON datasets to Parquet"
+        - "Cut AWS infrastructure costs by 75–85% using serverless architecture"
+        - "Implemented Cognito authentication with JWT-based RBAC"
+        - "Improved processing performance by over 90% through parallelization and caching"
+      tech:
+        - AWS
+        - Lambda
+        - ECS
+        - DynamoDB
+        - FastAPI
+        - Nuxt
+
+    - position: "Machine Learning Developer"
+      date: "Sep 2023 – Present"
+      company:
+        name: "Visual and Analytic Computing Lab"
+        logo: "/logos/lab.png"
+        color: "#3776AB"
+      highlights:
+        - "Implemented CNN models for breast cancer detection using PyTorch"
+        - "Optimized training pipelines with CUDA acceleration"
+        - "Supported research infrastructure on MUN supercomputer (CAIR)"
+      tech:
+        - PyTorch
+        - CUDA
+        - Python
+
+    - position: "Research Assistant"
+      date: "May 2023 – Sep 2023"
+      company:
+        name: "Visual and Analytic Computing Lab"
+        logo: "/logos/mun.jpg"
+        color: "#EE4C2C"
+      highlights:
+        - "Built CNN-based classification pipelines for medical imaging"
+        - "Reduced training time by ~90% through batch processing optimization"
+        - "Used GANs to balance datasets and improve model performance"
+      tech:
+        - PyTorch
+        - GAN
+        - MLflow
+
+certifications:
+  title: Certifications
+  items:
+    - name: AWS Solutions Architect – Professional
+      image: /certs/aws-sa-pro.png
+
+    - name: AWS Solutions Architect – Associate
+      image: /certs/aws-sa-associate.png
+
+    - name: AWS Developer – Associate
+      image: /certs/aws-dev.png
+
+    - name: AWS Data Engineer – Associate
+      image: /certs/aws-data.png
+
+    - name: Terraform Associate
+      image: /certs/terraform.png

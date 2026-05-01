@@ -1,0 +1,41 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform.lock.hcl
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+crash.log
+crash.*.log
+terraform/validation.json
+terraform/delete-records.json
+
+# Nuxt
+.nuxt/
+.output/
+dist/
+node_modules/
+.env
+.env.*
+!.env.example
+
+# AWS
+.aws/
+
+# General
+.DS_Store
+Thumbs.db
+*.log
+*.zip
+*.tar.gz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
